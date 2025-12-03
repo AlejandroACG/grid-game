@@ -1,9 +1,18 @@
+<pre>
+  ________      .__    .___   ________                       
+ /  _____/______|__| __| _/  /  _____/_____    _____   ____  
+/   \  __\_  __ \  |/ __ |  /   \  ___\__  \  /     \_/ __ \ 
+\    \_\  \  | \/  / /_/ |  \    \_\  \/ __ \|  Y Y  \  ___/ 
+ \______  /__|  |__\____ |   \______  (____  /__|_|  /\___  >
+        \/              \/          \/     \/      \/     \/ 
+</pre>
+
 # GridGame
 
 A terminal-based tactical puzzle game featuring movement, danger, power-ups, and a hidden cheat mode.
 
 GridGame is a small but complete Java console game designed around simple tactical decisions:
-each player moves on their own board, tries to survive enemies, collects power-ups, and races toward a hidden goal.
+each player moves on their own board, tries to survive hidden enemies, collects power-ups, and races toward a goal.
 
 ---
 
@@ -70,6 +79,9 @@ Each player has their own square grid containing:
 | `B`                            | Bomb pickup     |
 | `G`                            | Goal tile       |
 | Player marker (`1`, `2`, etc.) | Player position |
+
+**Note:** Enemies (`E`) are *normally invisible* during gameplay.  
+They only appear visually on the board when Cheat Mode is enabled.
 
 ---
 
@@ -168,6 +180,8 @@ In **any menu or movement prompt**:
 * Toggles Cheat Mode ON/OFF.
 * Cheat mode reveals enemy positions on the board.
 * Does NOT consume the player's turn.
+
+By default, enemies are hidden on the board.  
 
 This acts as a development/debugging tool.
 
