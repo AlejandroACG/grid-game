@@ -62,14 +62,14 @@ Each player begins with:
 
 Each player has their own square grid containing:
 
-| Marker                         | Meaning                                  |
-|--------------------------------| ---------------------------------------- |
-| ` `                            | Empty tile                               |
-| `E`                            | Enemy (reduces 1 health when stepped on) |
-| `H`                            | Health pickup (+1 health)                |
-| `B`                            | Bomb pickup (enables bomb action)        |
-| `G`                            | Goal tile (reaching this wins the game)  |
-| Player marker (`1`, `2`, etc.) | Player position                          |
+| Marker                         | Meaning         |
+|--------------------------------|-----------------|
+| ` `                            | Empty tile      |
+| `E`                            | Enemy           |
+| `H`                            | Health pickup   |
+| `B`                            | Bomb pickup     |
+| `G`                            | Goal tile       |
+| Player marker (`1`, `2`, etc.) | Player position |
 
 ---
 
